@@ -1,4 +1,5 @@
 #Kata: Harry Potter
+
 ###Beschreibung:
 
 Ein Buchhändler hat sich ein neues Rabattsystem für Harry Potter Bücher einfallen lassen. Sie sollen dieses Rabattsystem implementieren und für den Kunden immer das günstigste Angebot berechnen.
