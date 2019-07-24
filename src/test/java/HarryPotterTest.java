@@ -22,24 +22,24 @@ public class HarryPotterTest {
 
 	@Test
 	void testDiscounts() {
-		Assertions.assertEquals(8 * 2 * 0.95, bookingSystem.getPrice(1, 2));
-		Assertions.assertEquals(8 * 3 * 0.9, bookingSystem.getPrice(1, 3, 5));
-		Assertions.assertEquals(8 * 4 * 0.8, bookingSystem.getPrice(1, 2, 3, 4));
-		Assertions.assertEquals(8 * 5 * 0.75, bookingSystem.getPrice(1, 2, 3, 4, 5));
+		Assertions.assertEquals(8d * 2d * 0.95, bookingSystem.getPrice(1, 2));
+		Assertions.assertEquals(8d * 3d * 0.9, bookingSystem.getPrice(1, 3, 5));
+		Assertions.assertEquals(8d * 4d * 0.8, bookingSystem.getPrice(1, 2, 3, 4));
+		Assertions.assertEquals(8d * 5d * 0.75, bookingSystem.getPrice(1, 2, 3, 4, 5));
 	}
 
 	@Test
 	void testSeveralDiscounts() {
-		Assertions.assertEquals(8 + (8 * 2 * 0.95), bookingSystem.getPrice(1, 1, 2));
-		Assertions.assertEquals(2 * (8 * 2 * 0.95), bookingSystem.getPrice(1, 1, 2, 2));
-		Assertions.assertEquals((8 * 4 * 0.8) + (8 * 2 * 0.95), bookingSystem.getPrice(1, 1, 2, 3, 3, 4));
-		Assertions.assertEquals(8 + (8 * 5 * 0.75), bookingSystem.getPrice(1, 2, 2, 3, 4, 5));
+		Assertions.assertEquals(8d + (8d * 2d * 0.95), bookingSystem.getPrice(1, 1, 2));
+		Assertions.assertEquals(2d * (8d * 2d * 0.95), bookingSystem.getPrice(1, 1, 2, 2));
+		Assertions.assertEquals((8d * 4d * 0.8d) + (8d * 2d * 0.95), bookingSystem.getPrice(1, 1, 2, 3, 3, 4));
+		Assertions.assertEquals(8d + (8d * 5d * 0.75), bookingSystem.getPrice(1, 2, 2, 3, 4, 5));
 	}
 
 	@Test
 	void testEdgeCases() {
-		Assertions.assertEquals(2 * (8 * 4 * 0.8), bookingSystem.getPrice(1,1,2,2,3,3,4,5));
-		Assertions.assertEquals(3 * (8 * 5 * 0.75) + 2 * (8 * 4 * 0.8), bookingSystem.getPrice(1,1,1,1,1,
+		Assertions.assertEquals(2d * (8d * 4d * 0.8), bookingSystem.getPrice(1,1,2,2,3,3,4,5));
+		Assertions.assertEquals(3d * (8d * 5d * 0.75) + 2d * (8d * 4d * 0.8), bookingSystem.getPrice(1,1,1,1,1,
 				2,2,2,2,2,
 				3,3,3,3,
 				4,4,4,4,4,
