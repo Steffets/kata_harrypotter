@@ -1,5 +1,15 @@
 #Kata: Harry Potter
 
+####Organisatorisches:
+######Git-Url: https://github.com/Steffets/kata_harrypotter.git
+
+**WLAN**:  
+`SSID: LV1871-Gast`  
+`Name: CodingDojo`  
+`Passwort: nR82G4`
+
+
+
 ###Beschreibung:
 
 Ein Buchhändler hat sich ein neues Rabattsystem für Harry Potter Bücher einfallen lassen. Sie sollen dieses Rabattsystem implementieren und für den Kunden immer das günstigste Angebot berechnen.
