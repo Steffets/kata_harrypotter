@@ -23,12 +23,14 @@ Sie sollen dem Kunden das günstigste Angebot berechnen.
 ###Hinweis:
 Wenn man zum Beispiel 4 Bücher mit 3 unterschiedlichen Titeln kauft, bekommt man 10% für die 2 Bücher die ein Set bilden aber das vierte Buch kostet immernoch 8 EUR.
 
-Eingabe: 2 x Band 1, 2 x Band 2, 2 x Band 3, 1 x Band 4 und 1 x Band 5.
-Rechnung: (4 * 8) - 20% [Band 1, Band 2, Band 3, Band 4]
-+ (4 * 8) - 20% [Band 1, Band 2, Band 3, Band 5]
+**Eingabe**:   
+2 x Band 1, 2 x Band 2, 2 x Band 3, 1 x Band 4 und 1 x Band 5.
+Rechnung:   
+ (4 * 8) - 20% [Band 1, Band 2, Band 3, Band 4]
+\+ (4 * 8) - 20% [Band 1, Band 2, Band 3, Band 5]
 = 25.6 * 2
-= 51.20
-Ausgabe: Das günstigste Angebot für den Kunden ist 51,20€!
+= 51.20  
+**Ausgabe: Das günstigste Angebot für den Kunden ist 51,20€!**
 
 
 **Erweiterung**:
