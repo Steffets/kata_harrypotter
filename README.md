@@ -3,12 +3,6 @@
 ####Organisatorisches:
 ######Git-Url: https://github.com/Steffets/kata_harrypotter.git
 
-**WLAN**:  
-`SSID: LV1871-Gast`  
-`Name: CodingDojo`  
-`Passwort: nR82G4`
-
-
 
 ###Beschreibung:
 
