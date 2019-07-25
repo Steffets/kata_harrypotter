@@ -1,12 +1,10 @@
 #Kata: Harry Potter
 
 ####Organisatorisches:
-######Git-Url: https://github.com/Steffets/kata_harrypotter.git
+######Git-Url: 
 
 **WLAN**:  
-`SSID: LV1871-Gast`  
-`Name: CodingDojo`  
-`Passwort: nR82G4`
+#SSID: LV1871-Gast     Name: CodingDojo       Passwort: nR82G4
 
 
 
@@ -21,7 +19,8 @@ Kauft ein Kunden Bücher mehrfach, kosten diese regulär 8€, außer sie ergebe
 Sie sollen dem Kunden das günstigste Angebot berechnen.
 
 ###Hinweis:
-Wenn man zum Beispiel 4 Bücher mit 3 unterschiedlichen Titeln kauft, bekommt man 10% für die 2 Bücher die ein Set bilden aber das vierte Buch kostet immernoch 8 EUR.
+Wenn man zum Beispiel 4 Bücher mit 3 unterschiedlichen Titeln kauft, bekommt man 10% für die 3 Bücher die ein Set 
+bilden aber das vierte Buch kostet immernoch 8 EUR.
 
 **Eingabe**:   
 2 x Band 1, 2 x Band 2, 2 x Band 3, 1 x Band 4 und 1 x Band 5.
