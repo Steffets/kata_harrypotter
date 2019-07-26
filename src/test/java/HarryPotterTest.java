@@ -47,4 +47,8 @@ public class HarryPotterTest {
 				5,5,5,5));
 	}
 
+	@Test
+	void anotherEdgeCase() {
+		Assertions.assertEquals(2d * (8d * 4d * 0.8), bookingSystem.getPrice(1, 2, 3, 4, 5, 1, 2, 3));
+	}
 }
